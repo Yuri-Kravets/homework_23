@@ -17,9 +17,9 @@
       };
       return sum();
   }
-  console.log(sum(3)); //3
-  console.log(sum(8)); //11
-  console.log(sum(4)); //15
+  console.log(sum(3)); 
+  console.log(sum(5));
+  console.log(sum(20)); 
 })();
 
 
