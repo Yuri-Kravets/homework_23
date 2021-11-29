@@ -1,13 +1,4 @@
-/*(function(arg) {
-  let a = arg;
-    function sum(value) {
 
-
-    }
-}
-
-)();
-*/
 (function () {
   function sum (value) {
       let temp = value;
@@ -25,12 +16,21 @@
 
 
 
+//Разбирался как работает,оставил ,пусть валяется
+/*
+function makeAdder(x) {
+  return function(y) {
+    return x + y;
+  };
+};
+
+let add5 = makeAdder(5);
+let add10 = makeAdder(10);
+
+console.log(add5(2));
+console.log(add5(3));  // 7
+console.log(add10(2)); // 12
+*/
 
 
-/*function func1(a, b, c) {
-  console.log(arguments[0]);
-  console.log(arguments[1]);
-  console.log(arguments[2]);
-}
-  func1('fgfgf',34,'qwerty');
-  */
+
